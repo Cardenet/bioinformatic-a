@@ -1,0 +1,16 @@
+'''
+-"Instalación" de nuestros programas python
+ 1-Poner en la primera linea el interprete
+ #! (hash bang!)
+ 2-Cambiar los permisos: chmod (lo de abajo) u+x NombreArchivo
+ 	Primero viene una letra [ugoa](user, group, other, all) +,-,= [rwx]
+ 3-Poner mi ejecutable en el $PATH
+ 	PATH es una variable de Bash(interpetre que se usa en el terminal)
+ 	echo(muestra por pantalla) $PATH 
+ 	echo $PATH | sed 's/:/\n/'
+ 	PATH=~/bin:$PATH
+ 	#Archivos de configuracion
+ 		~/. profile se ejecuta cuando hago login
+ 		~/. bashrc se ejecuta cuando abres el terminal
+ 		cp NombreArchivo ~/bin/NombreQueTuQuieras
+'''
