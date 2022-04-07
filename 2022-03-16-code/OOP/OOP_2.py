@@ -4,6 +4,9 @@ import sys
 #Reutilización
 #Programacion multi-hilo
 #Encapsulación (funciones + datos) = Friendly sintaxis --> easy modeling 
+#Decorador(Decorator): Una de las formas que tiene python de hacer meta programacion(meta programing)
+#Meta progrmamación: User->Code->Code->Problema solving        Escribir codigo para generar codigo para solucionar un problema 
+#Programar:          User->Code->Problema_Solving
 class Table:
     def __init__(self, csv_file_path: str) -> None:
       self.data: list[list[str]]= self.read_table(csv_file_path)
