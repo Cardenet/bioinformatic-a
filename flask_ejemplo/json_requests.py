@@ -9,9 +9,9 @@ from requests.models import Response
 #do_something 3 (a:float) --> float
 
 
-#my_server/do_something1 -->int
-#my_server/do_something2 -->str     ---> Web services
-#my_server/do_something3 -->float
+#my_server/do_something1 -->int  \
+#my_server/do_something2 -->str   \______-> Web services
+#my_server/do_something3 -->float /
 # Make a GET Request
     
 url: str='https://animechan.vercel.app/api/random'
